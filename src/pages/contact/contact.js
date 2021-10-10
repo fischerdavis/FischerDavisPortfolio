@@ -1,6 +1,8 @@
 import React from "react";
 import "./contact.scss";
 
+// https://devicon.dev/
+
 const Contact = () => {
   return (
     <div className="contact-container">
