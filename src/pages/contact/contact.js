@@ -1,14 +1,13 @@
 import React from "react";
 import "./contact.scss";
-import { BsGithub, BsLinkedin, FaFileCsv, GrDocumentCsv } from "react-icons/all";
 
 const Contact = () => {
   return (
     <div className="contact-container">
       <h1>Contact</h1>
-      <BsGithub />
-      <BsLinkedin />
-      <FaFileCsv />
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="Github"/>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn"/>
+
     </div>
   );
 };
