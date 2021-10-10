@@ -7,9 +7,9 @@ const About = () => {
       <div className="about-info">
         <h1>Hey,</h1>
         <h2>
-          I'm Fischer Davis, and I'm a fullstack engineer working in the IoT
-          industry. I love learning new skills as well as improving my current
-          skills.
+          My name is Fischer Davis, and I'm a fullstack developer and life long learner.
+          I currently work in the IoT Industry where I help to make warehouses just a little bit smarter.
+          I have experience building fullstack applications using React, .NET, and MSSQL.
         </h2>
       </div>
       <div className="about-picture">
