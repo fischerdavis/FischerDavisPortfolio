@@ -1,18 +1,19 @@
 import React from "react";
 import "./navbar.scss";
-import { Nav } from "react-bootstrap";
+import { Navbar, Nav } from "react-bootstrap";
 
-const Navbar = () => {
+const NavBar = () => {
   return(
-    <Navbar bg="dark" variant="dark">
-      <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+    <Navbar className="fixed-top nav">
+      <Navbar.Brand href="#home">FD</Navbar.Brand>
       <Nav className="mr-auto">
-        <Nav.Link href="#home">Home</Nav.Link>
-        <Nav.Link href="#features">Features</Nav.Link>
-        <Nav.Link href="#pricing">Pricing</Nav.Link>
+        <Nav.Link href="#home">About</Nav.Link>
+        <Nav.Link href="#features">Tech</Nav.Link>
+        <Nav.Link href="#pricing">Projects</Nav.Link>
+        <Nav.Link href="#contacts">Contact</Nav.Link>
       </Nav>
     </Navbar>
   );
 };
 
-export default Navbar;
+export default NavBar;

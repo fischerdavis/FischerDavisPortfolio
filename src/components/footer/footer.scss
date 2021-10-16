@@ -1,0 +1,25 @@
+.footer-container {
+  background: #232323;
+  color: white;
+  display: flex;
+  align-items: center;
+  height: 60px;
+}
+
+.footer-icons {
+  height: 30px;
+  width: 30px;
+}
+
+.footer-creator {
+  margin-left: 1em;
+  flex: 1;
+}
+
+.footer-creator h5 {
+  margin-bottom: 0;
+}
+
+.footer-links {
+  flex: 1;
+}

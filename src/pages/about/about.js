@@ -1,6 +1,8 @@
 import React from "react";
 import "./about.scss";
 
+import programmer from '../../assets/home-main.541f8179.svg';
+
 const About = () => {
   return (
     <div className="about-container">
@@ -13,7 +15,7 @@ const About = () => {
         </h2>
       </div>
       <div className="about-picture">
-        <h1>PICTURE HERE</h1>
+        <img className="pic" src={programmer} alt="Programmer" />
       </div>
     </div>
   );

@@ -6,13 +6,9 @@ import "./contact.scss";
 const Contact = () => {
   return (
     <div className="contact-container">
-      <h1>Links</h1>
-      <a href="https://github.com/fischerdavis">
-        <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="Github"/>
-      </a>
-      <a href="https://linkedin.com/in/fischerdavis">
-        <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn"/>
-      </a>
+      <h1>Contact</h1>
+      <h3>fischerdavis94@gmail.com</h3>
+      <h3>214-548-2652</h3>
     </div>
   );
 }

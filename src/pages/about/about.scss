@@ -1,5 +1,6 @@
 .about-container {
-  background: #e0fbfc;
+  margin-top: 3.75em;
+  color: white;
   height: 600px;
   display: flex;
 }
@@ -10,4 +11,9 @@
 
 .about-picture {
   flex: 1;
+}
+
+.pic {
+  width: 550px;
+  height: 550px;
 }
