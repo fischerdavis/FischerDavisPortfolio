@@ -3,7 +3,7 @@ import "./skills.scss";
 
 const Skills = () => {
   return (
-    <div className="skills-container">
+    <div className="skills-container" id="skills">
       <h1>Tech</h1>
       <div className="skills-items">
         <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" alt="C#"/>

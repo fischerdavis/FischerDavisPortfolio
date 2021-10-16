@@ -3,23 +3,11 @@
   color: white;
   display: flex;
   align-items: center;
+  justify-content: center;
   height: 60px;
 }
 
-.footer-icons {
-  height: 30px;
-  width: 30px;
-}
-
-.footer-creator {
-  margin-left: 1em;
-  flex: 1;
-}
-
 .footer-creator h5 {
+  text-align: center;
   margin-bottom: 0;
-}
-
-.footer-links {
-  flex: 1;
 }

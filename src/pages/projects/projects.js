@@ -5,7 +5,7 @@ import { Button, Card } from "react-bootstrap";
 
 const Projects = () => {
   return (
-    <div className="projects-container">
+    <div className="projects-container" id="projects">
       <h1>Projects</h1>
       <div className="card-container">
         {projectsList.map((project, index) => (

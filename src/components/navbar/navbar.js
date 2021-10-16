@@ -5,12 +5,12 @@ import { Navbar, Nav } from "react-bootstrap";
 const NavBar = () => {
   return(
     <Navbar className="fixed-top nav">
-      <Navbar.Brand href="#home">FD</Navbar.Brand>
+      <Navbar.Brand href="#about">FD</Navbar.Brand>
       <Nav className="mr-auto">
-        <Nav.Link href="#home">About</Nav.Link>
-        <Nav.Link href="#features">Tech</Nav.Link>
-        <Nav.Link href="#pricing">Projects</Nav.Link>
-        <Nav.Link href="#contacts">Contact</Nav.Link>
+        <Nav.Link href="#about">About</Nav.Link>
+        <Nav.Link href="#skills">Tech</Nav.Link>
+        <Nav.Link href="#projects">Projects</Nav.Link>
+        <Nav.Link href="#contact">Contact</Nav.Link>
       </Nav>
     </Navbar>
   );
