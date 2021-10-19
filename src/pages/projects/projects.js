@@ -14,7 +14,7 @@ const Projects = () => {
               <Card.Title>{project.title}</Card.Title>
               <p>{project.description}</p>
               <p>{project.techUsed}</p>
-              <a href={project.link}><Button variant="primary">Link</Button></a>
+              <a href={project.link}><Button className="btn-link">Link</Button></a>
             </Card.Body>
           </Card>
         ))}

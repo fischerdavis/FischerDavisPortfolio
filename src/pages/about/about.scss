@@ -1,19 +1,32 @@
 .about-container {
   margin-top: 3.75em;
-  color: white;
+  background: #1E3D58;
+  color: #E8EEF1;
   height: 600px;
   display: flex;
 }
 
-.about-info {
-  flex: 2;
+.about-info-container {
+  flex: 1;
+  padding: 1.25em;
 }
 
 .about-picture {
   flex: 1;
+  padding-left: 5em;
 }
 
 .pic {
   width: 550px;
   height: 550px;
+}
+
+.links-info {
+  text-align: center;
+}
+
+.about-icon {
+  height: 55px;
+  width: 55px;
+  margin-left: 1.5em;
 }

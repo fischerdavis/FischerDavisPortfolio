@@ -12,4 +12,18 @@
 
 .cards {
   margin: 2em 0 2em 2em;
+  background: #E8EEF1 !important;
+  border-radius: 10px !important;
+  border: 2px solid #1E3D58 !important;
+}
+
+.btn-link {
+  background: #1E3D58 !important;
+  border-color: #1E3D58 !important;
+  color: #E8EEF1 !important;
+  text-decoration: none !important;
+}
+
+.btn-link:hover {
+  background: #28517a !important;
 }
