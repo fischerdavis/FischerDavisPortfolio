@@ -9,6 +9,7 @@
 .about-info-container {
   flex: 1;
   padding: 1.25em;
+  margin: 0 5em 5em 5em;
 }
 
 .about-picture {
@@ -31,4 +32,8 @@
   height: 43px;
   width: 43px;
   margin-left: 2em;
+}
+
+.about-icon {
+  margin-left: 0;
 }
