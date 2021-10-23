@@ -15,6 +15,7 @@ const Projects = () => {
               <p>{project.description}</p>
               <p>{project.techUsed}</p>
               <a href={project.link}><Button className="btn-link">Link</Button></a>
+              <a href={project.gitHub}><Button className="btn-link">GitHub</Button></a>
             </Card.Body>
           </Card>
         ))}
