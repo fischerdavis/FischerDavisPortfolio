@@ -15,7 +15,7 @@ const Skills = () => {
             placement="top"
             overlay={
               <Tooltip id="tooltip-top">
-                Tooltip on <strong>{item.name}</strong>.
+                {item.name}
               </Tooltip>
             }
           >
