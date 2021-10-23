@@ -12,7 +12,7 @@ export const skillsList = [
     link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg"
   },
   {
-    name: "SASS",
+    name: "Sass",
     link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg"
   },
   {
