@@ -12,9 +12,10 @@ const About = () => {
         <div className="about-info">
         <h1>Hey,</h1>
         <h2>
-          My name is Fischer Davis, and I'm a fullstack developer and life long learner.
-          I currently work in the IoT Industry where I help to make warehouses just a little bit smarter.
-          I have experience building fullstack applications using React, .NET, and MSSQL.
+          My name is Fischer Davis, and I'm a fullstack developer and life long learner currently working in the Law software industry.
+          Previous to working in law I worked in IoT developing and designing fullstack applications that directly interacted with the real world!
+          I have professional experience in React with Redux, .Net, and MSSQL.
+          {/*Outside of work my current go to stack is the t3-stack (NextJs with Typescript, tRPC, prisma (ORM), MySQL(PlanetScale))*/}
         </h2>
         </div>
         <div className="links-info">
