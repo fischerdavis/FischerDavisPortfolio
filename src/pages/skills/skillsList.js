@@ -4,24 +4,12 @@ export const skillsList = [
     link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg"
   },
   {
-    name: "C++",
-    link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
-  },
-  {
-    name: "C",
-    link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg"
-  },
-  {
     name: "HTML",
     link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg"
   },
   {
     name: "CSS",
     link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
-  },
-  {
-    name: "Sass",
-    link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg"
   },
   {
     name: "Bootstrap",
@@ -40,7 +28,7 @@ export const skillsList = [
     link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/electron/electron-original.svg"
   },
   {
-    name: "MSSQL (Sql Server)",
+    name: "MSSQL (SQL Server)",
     link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain-wordmark.svg"
   },
   {
