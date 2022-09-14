@@ -1,59 +1,8 @@
 {
-  "env": {
-    "browser": true,
-    "es2021": true
-  },
-  "extends": [
-    "plugin:react/recommended",
-    "airbnb",
-    "prettier"
-  ],
+  "parser": "@typescript-eslint/parser",
   "parserOptions": {
-    "ecmaFeatures": {
-      "jsx": true
-    },
-    "ecmaVersion": 12,
-    "sourceType": "module"
+    "project": "./tsconfig.json"
   },
-  "plugins": [
-    "react"
-  ],
-  "rules": {
-    // suppress errors for missing 'import React' in files
-    "react/react-in-jsx-scope": "off",
-    // allow jsx syntax in js files (for next.js project)
-    "react/jsx-filename-extension": [
-      1,
-      {
-        "extensions": [
-          ".js",
-          ".jsx"
-        ]
-      }
-    ],
-    //should add ".ts" if typescript project
-    "linebreak-style": "off",
-    "require-jsdoc": "off",
-    "comma-dangle": "off",
-    "no-unused-vars": "off",
-    "max-len": "off",
-    "no-trailing-spaces": "off",
-    "padded-blocks": "off",
-    "object-curly-spacing": "off",
-    "react/prop-types": 0,
-    "import/no-extraneous-dependencies": "off",
-    "import/prefer-default-export": "off",
-    "no-shadow": "off",
-    "import/order": "off",
-    "react/no-array-index-key": "off",
-    "no-nested-ternary": "off",
-    "react/jsx-props-no-spreading": "off",
-    "arrow-body-style": "off",
-    "spaced-comment": "off",
-    "react/no-unescaped-entities": "off",
-    "react/self-closing-comp": "off",
-    "react/jsx-indent": "off",
-    "react/jsx-closing-tag-location": "off",
-    "object-shorthand": "off"
-  }
+  "plugins": ["@typescript-eslint"],
+  "extends": ["next/core-web-vitals", "plugin:@typescript-eslint/recommended"]
 }
